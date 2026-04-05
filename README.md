@@ -5,6 +5,12 @@ This project demonstrates frontend design, component structure, state management
 
 ---
 
+## 🔗 Live Demo
+
+https://finance-dashboard-swart-iota.vercel.app/
+
+---
+
 ## Overview
 
 This dashboard allows users to:
