@@ -5,7 +5,7 @@ This project demonstrates frontend design, component structure, state management
 
 ---
 
-## 🔗 Live Demo
+## Live Demo
 
 https://finance-dashboard-swart-iota.vercel.app/
 
@@ -140,7 +140,31 @@ npm run dev
 
 ---
 
-## Future Improvements (Optional)
+## Challenges Faced
+
+- Ensuring consistent dark mode across all components, especially charts and form elements, required careful handling of styles and conditional rendering.
+
+- Managing state updates for editing transactions initially caused issues due to improper state synchronization, which was resolved using controlled state updates and effects.
+
+- Styling native select dropdowns in dark mode was limited due to browser constraints, which required fallback styling solutions.
+
+- Maintaining UI consistency across different sections while keeping the layout responsive required iterative refinement.
+
+---
+
+## How I Solved Them
+
+- Used conditional Tailwind classes and centralized theme state to ensure consistent dark mode.
+
+- Fixed state synchronization issues using React hooks like `useEffect`.
+
+- Applied custom styling where possible and accepted browser limitations for native elements.
+
+- Followed consistent design patterns and spacing throughout the application.
+ 
+---
+
+## Future Improvements
 
 - Export transactions (CSV/JSON)
 - Advanced analytics & charts
