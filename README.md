@@ -116,7 +116,7 @@ cd finance-dashboard
 
 ### 3. Install dependencies
 
-cd finance-dashboard
+npm install
 
 ### 4. Run the project
 
